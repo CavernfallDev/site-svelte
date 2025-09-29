@@ -10,13 +10,13 @@
 
     let demoData = true;
 
-    function getTotalActivePlayers():number {
+    function getTotalActivePlayers() {
         if (demoData) { return 12345; }
         // Await Zffu's implementation of a webhook to track actual
         // data, then call that API here to add to the site.
     }
 
-    function getTotalActiveRealms():number {
+    function getTotalActiveRealms() {
         if (demoData) { return 12; }
         // Await Zffu's implementation of a webhook to track actual
         // data, then call that API here to add to the site.
