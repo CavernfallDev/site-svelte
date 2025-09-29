@@ -58,9 +58,9 @@
 					<!-- Hero Text -->
 					<h1 class="text-5xl md:text-7xl font-bold text-white mb-6">
 						Welcome to
-                        <span class="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent drop-shadow-lg">
-                            Cavernfall
-                        </span>
+						<span class="gradient-text font-bold">
+							Cavernfall
+						</span>
 					</h1>
 					
 					<p class="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -166,5 +166,15 @@
 	.backdrop-blur-md {
 		backdrop-filter: blur(16px);
 		-webkit-backdrop-filter: blur(16px);
+	}
+	
+	/* Gradient text styling */
+	.gradient-text {
+		background: linear-gradient(to right, #c084fc, #22d3ee);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		color: transparent;
+		display: inline-block;
 	}
 </style>
